@@ -1,0 +1,15 @@
+import penjumlah
+x = penambahan()
+print(x)
+
+import mymodule
+x = pengurangan()
+print(x)
+
+import mymodule
+x = perkalian()
+print(x)
+
+import mymodule
+x = pembagian()
+print(x)

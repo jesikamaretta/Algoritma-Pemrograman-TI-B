@@ -51,3 +51,4 @@ else:
 x = 'jess'
 print(isinstance(x, str)) #Periksa apakah suatu objek merupakan string
 
+

@@ -1,0 +1,30 @@
+def countdown(n): #dipanggil fungsinya sendiri karena diakhiri fungsi sendiri
+  if n <= 0:
+    print("Done!")
+  else:
+    print(n)
+    countdown(n - 1) #dia akan dikurangi satu
+
+countdown(5) #fungsi untuk memanggil diri semndiri
+#output urut dari 5,akan memanggil diri sendiri sampai pengecualian terjadi
+#biasa digunakn pada faktorial
+#kalo sampe nol yaiut pengecualian dia akan print kata done 
+
+def factorial(n):
+  # Base case
+  if n == 0 or n == 1: #otomatis mereturn 1
+    return 1 #ini pakai retunr karena dia menampilkan nilai berupa tipe data ke fungsi
+  # Recursive case
+  else:
+    return n * factorial(n - 1)
+
+print(factorial(5))
+
+#bedanya fungsi return dan print.
+#return hanya menampilkan nilai dan membalikkan nilai
+#return x+y mengembalikan nilai ke fungsi,fungsi mempunyai tipe data
+#def tambahan (x)
+#x - 'jeyu'
+#print(x) hanya menampilkan nilai tanpa tipe data,menampilkan isi dari variavel yg di print
+#jadi void dan hanya menampilkan nilai
+
